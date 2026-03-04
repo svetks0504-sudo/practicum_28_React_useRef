@@ -1,0 +1,41 @@
+.containrer{
+  background-color: rgb(201, 166, 233);
+ padding: 8vw;
+display: flex;
+flex-direction: column;
+height: 30vw;
+gap: 5vw;
+margin: 4vw;
+border-radius: 15px;
+}
+.containerInputBtn{
+  display: flex;
+  gap: 2vw;
+}
+.btn{
+padding: 0.5vw;
+width: 100px;
+box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
+ background-color: rgb(224, 204, 245);
+ border: none;
+}
+.btn:hover{
+  box-shadow: 3px 5px rgb(0, 0, 0, 0.2);
+ background-color:rgb(228, 215, 240);
+}
+.btn:active{
+box-shadow: 3px 5px rgb(0, 0, 0, 0.4);
+ background-color:rgb(200, 159, 238);
+}
+.input{
+padding: 0.5vw;
+outline: none;
+}
+.input:focus{
+  outline: 2px solid rgb(75, 10, 136);
+  background-color: rgb(228, 215, 240);
+}
+.text{
+  font-size: 2rem;
+  color: rgb(123, 24, 216);
+}

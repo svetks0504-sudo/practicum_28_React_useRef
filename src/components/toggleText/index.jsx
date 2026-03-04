@@ -24,16 +24,21 @@ useEffect(()=>{
 }, [showText, delay])
 
     return (
-        <div>
-            <button 
+        <div className={styles.containrer}>
+
+            <div className={styles.containerInputBtn}>
+            <button className={styles.btn}
             onClick={(()=>{toggleText()})}>
                 {showText ? "Hide text" : "Show text"}
             </button>
 
             <input type='number'
+            className={styles.input}
             onChange={handleDelay}
             placeholder='Animation delay (ms)'
             value={delay} ></input>
+
+            </div>
 
             <p ref={textRef}
             className={styles.text}>
